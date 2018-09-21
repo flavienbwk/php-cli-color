@@ -8,7 +8,7 @@ Simple and easy to use the PHP command-line output of color
 
 ## Installation
 
-`composer require wujunze/php-cli-color`
+`composer require flavienbwk/php-cli-color`
 
 ## How to use
 ```php
@@ -16,7 +16,7 @@ Simple and easy to use the PHP command-line output of color
 
 require_once __DIR__ . './../vendor/autoload.php';
 
-$colors = new Wujunze\Colors();
+$colors = new flavienbwk\Colors();
 // Test some basic printing with Colors class
 echo $colors->getColoredString("Testing Colors class, this is purple string on yellow background.", "purple", "yellow") . PHP_EOL;
 echo $colors->getColoredString("Testing Colors class, this is blue string on light gray background.", "blue", "light_gray") . PHP_EOL;
