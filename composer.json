@@ -1,5 +1,6 @@
 {
     "name": "flavienbwk/php-cli-color",
+    "minimum-stability": "stable",
     "description": "Simple and easy to use the PHP command-line output of color. Light.",
     "type": "library",
     "license": "MIT",
